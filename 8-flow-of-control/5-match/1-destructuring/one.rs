@@ -1,5 +1,5 @@
 fn main() {
-    let triple = (1, -2, 3);
+    let triple = (2, -2, 3);
     // TODO ^ Try different values for `triple`
 
     println!("Tell me about {:?}", triple);
