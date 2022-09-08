@@ -12,7 +12,7 @@ fn main() {
         // Match an inclusive range
         13..=19 => println!("A teen"),
         // Handle the rest of cases
-        _ => println!("Ain't special"),
+        // _ => println!("Ain't special"),
         // TODO ^ Try commenting out this catch-all arm
     }
 
