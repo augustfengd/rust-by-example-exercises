@@ -15,7 +15,7 @@ enum Color {
 }
 
 fn main() {
-    let color = Color::RGB(122, 17, 40);
+    let color = Color::Red;
     // TODO ^ Try different variants for `color`
 
     println!("What color is it?");
