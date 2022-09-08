@@ -12,7 +12,7 @@ fn main() {
         // Match an inclusive range
         13..=19 => println!("A teen"),
         // Handle the rest of cases
-        // _ => println!("Ain't special"),
+        _ => println!("Ain't special"),
         // TODO ^ Try commenting out this catch-all arm
     }
 
@@ -21,7 +21,7 @@ fn main() {
     let binary = match boolean {
         // The arms of a match must cover all the possible values
         false => 0,
-        true => 1,
+        // true => 1,
         // TODO ^ Try commenting out one of these arms
     };
 
