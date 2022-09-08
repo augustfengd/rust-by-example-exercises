@@ -15,7 +15,7 @@ enum Color {
 }
 
 fn main() {
-    let color = Color::Red;
+    let color = Color::HSV(1,2,3);
     // TODO ^ Try different variants for `color`
 
     println!("What color is it?");
