@@ -1,6 +1,6 @@
 fn main() {
     // Try changing the values in the array, or make it a slice!
-    let array = [0, -2, 6];
+    let array = [-1, -2, 6];
 
     match array {
         // Binds the second and the third elements to the respective variables
