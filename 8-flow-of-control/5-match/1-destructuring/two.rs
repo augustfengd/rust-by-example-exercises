@@ -1,8 +1,9 @@
 fn main() {
     // Try changing the values in the array, or make it a slice!
-    let array = [4, -2, 6];
 
-    match array {
+    let s = &[4, -2, 6, 0, 1, 2][3 .. 6];
+
+    match s {
         // Binds the second and the third elements to the respective variables
         [0, second, third] =>
             println!("array[0] = 0, array[1] = {}, array[2] = {}", second, third),
@@ -34,5 +35,9 @@ fn main() {
             "array[0] = {}, middle = {:?}, array[2] = {}",
             first, middle, last
         ),
+
+        [] => println!("foobar"),
+
+        [_] => println!("foobaz")
     }
 }
