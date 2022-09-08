@@ -19,7 +19,7 @@ fn main() {
             println!(", and is a big number, halve the number");
 
             // This expression must return an `i32` as well.
-            n / 2
+            n / 2;
             // TODO ^ Try suppressing this expression with a semicolon.
         };
     //   ^ Don't forget to put a semicolon here! All `let` bindings need it.
