@@ -8,6 +8,6 @@ fn main() {
         }
     }
     
-    println!("names: {:?}", names);
+    // println!("names: {:?}", names);
     // FIXME ^ Comment out this line
 }
