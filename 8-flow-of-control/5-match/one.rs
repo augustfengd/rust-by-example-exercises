@@ -1,5 +1,5 @@
 fn main() {
-    let number = 13;
+    let number = 8;
     // TODO ^ Try different values for `number`
 
     println!("Tell me about {}", number);
