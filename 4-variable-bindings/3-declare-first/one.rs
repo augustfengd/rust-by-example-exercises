@@ -13,9 +13,7 @@ fn main() {
 
     let another_binding;
 
-    // Error! Use of uninitialized binding
-    println!("another binding: {}", another_binding);
-    // FIXME ^ Comment out this line
+    // println!("another binding: {}", another_binding);
 
     another_binding = 1;
 
