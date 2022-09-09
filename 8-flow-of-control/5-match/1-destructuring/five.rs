@@ -5,7 +5,7 @@ fn main() {
     }
 
     // Try changing the values in the struct to see what happens
-    let foo = Foo { x: (1, 2), y: 3 };
+    let foo = Foo { x: (2, 2), y: 2 };
 
     match foo {
         Foo { x: (1, b), y } => println!("First of x is 1, b = {},  y = {} ", b, y),
