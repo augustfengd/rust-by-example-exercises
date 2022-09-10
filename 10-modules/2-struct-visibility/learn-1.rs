@@ -38,6 +38,6 @@ fn main() {
 
     // and the private fields of a public struct cannot be accessed.
     // Error! The `contents` field is private
-    println!("The closed box contains: {}", _closed_box.contents);
+    // println!("The closed box contains: {}", _closed_box.contents);
     // TODO ^ Try uncommenting this line
 }
