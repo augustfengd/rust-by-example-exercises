@@ -62,6 +62,6 @@ fn main() {
 
     // `consume` consumes the variable so this can only be called once.
     consume();
-    // consume();
+    consume();
     // ^ TODO: Try uncommenting this line.
 }
