@@ -1,6 +1,6 @@
 // Define a function which takes a generic `F` argument
 // bounded by `Fn`, and calls it
-fn call_me<F: Fn()>(f: F) {
+fn call_me<F>(f: F) where F: Fn() {
     f();
 }
 
