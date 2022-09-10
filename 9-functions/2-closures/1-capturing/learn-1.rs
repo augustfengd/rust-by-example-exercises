@@ -39,7 +39,7 @@ fn main() {
 
     // The closure still mutably borrows `count` because it is called later.
     // An attempt to reborrow will lead to an error.
-    let _reborrow = &count; 
+    // let _reborrow = &count;
     // ^ TODO: try uncommenting this line.
     inc();
 
