@@ -107,11 +107,11 @@ fn main() {
     // TODO ^ Try uncommenting this line
 
     // Error! `private_function` is private
-    my_mod::nested::private_function();
+    // my_mod::nested::private_function();
     // TODO ^ Try uncommenting this line
 
     // Error! `private_nested` is a private module
-    //my_mod::private_nested::function();
+    my_mod::private_nested::function();
     // TODO ^ Try uncommenting this line
 
     // Error! `private_nested` is a private module
