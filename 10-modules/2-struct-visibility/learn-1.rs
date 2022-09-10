@@ -29,7 +29,7 @@ fn main() {
 
     // Public structs with private fields cannot be constructed using field names.
     // Error! `ClosedBox` has private fields
-    //let closed_box = my::ClosedBox { contents: "classified information" };
+    let closed_box = my::ClosedBox { contents: "classified information" };
     // TODO ^ Try uncommenting this line
 
     // However, structs with private fields can be created using
