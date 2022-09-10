@@ -49,7 +49,8 @@ fn main() {
 
     
     // A non-copy type.
-    let movable = Box::new(3);
+    // let movable = Box::new(3);
+    let movable = String::from("foobar");
 
     // `mem::drop` requires `T` so this must take by value. A copy type
     // would copy into the closure leaving the original untouched.
