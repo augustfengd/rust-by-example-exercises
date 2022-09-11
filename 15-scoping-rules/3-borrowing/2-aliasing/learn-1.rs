@@ -12,7 +12,7 @@ fn main() {
 
     // Error! Can't borrow `point` as mutable because it's currently
     // borrowed as immutable.
-    // let mutable_borrow = &mut point;
+    let mutable_borrow = &mut point;
     // TODO ^ Try uncommenting this line
 
     // The borrowed values are used again here
