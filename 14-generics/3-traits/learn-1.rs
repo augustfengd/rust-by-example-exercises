@@ -25,6 +25,6 @@ fn main() {
     empty.double_drop(null);
 
     // empty;
-    null;
+    // null;
     // ^ TODO: Try uncommenting these lines.
 }
