@@ -21,11 +21,11 @@ fn main() {
     let _one_second = Seconds(1);
 
     // Error: `Seconds` can't be printed; it doesn't implement the `Debug` trait
-    println!("One second looks like: {:?}", _one_second);
+    // println!("One second looks like: {:?}", _one_second);
     // TODO ^ Try uncommenting this line
 
     // Error: `Seconds` can't be compared; it doesn't implement the `PartialEq` trait
-    //let _this_is_true = (_one_second == _one_second);
+    let _this_is_true = (_one_second == _one_second);
     // TODO ^ Try uncommenting this line
 
     let foot = Inches(12);
