@@ -25,7 +25,7 @@ fn main() {
     // TODO ^ Try uncommenting this line
 
     // Error: `Seconds` can't be compared; it doesn't implement the `PartialEq` trait
-    let _this_is_true = (_one_second == _one_second);
+    // let _this_is_true = (_one_second == _one_second);
     // TODO ^ Try uncommenting this line
 
     let foot = Inches(12);
