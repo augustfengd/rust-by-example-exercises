@@ -35,7 +35,7 @@ fn main() {
     // If you uncomment this line, you'll get an error saying
     // "multiple `get` found". Because, after all, there are multiple methods
     // named `get`.
-    // println!("{}", form.get());
+    println!("{}", form.get());
 
     let username = <Form as UsernameWidget>::get(&form);
     assert_eq!("rustacean".to_owned(), username);
