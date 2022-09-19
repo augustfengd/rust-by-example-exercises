@@ -20,7 +20,13 @@ impl Person {
         // This would need many nested `match` statements without the `?` operator.
         // It would take a lot more code - try writing it yourself and see which
         // is easier.
-        self.job?.phone_number?.area_code
+        match self.job {
+            Some(job) => match job.phone_number {
+                Some(phone_number) => phone_number.area_code,
+                None => None
+            },
+            None => None,
+        }
     }
 }
 
