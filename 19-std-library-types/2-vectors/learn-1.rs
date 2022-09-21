@@ -13,7 +13,7 @@ fn main() {
     println!("Vector: {:?}", xs);
 
     // Error! Immutable vectors can't grow
-    collected_iterator.push(0);
+    // collected_iterator.push(0);
     // FIXME ^ Comment out this line
 
     // The `len` method yields the number of elements currently stored in a vector
