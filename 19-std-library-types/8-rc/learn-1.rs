@@ -32,6 +32,6 @@ fn main() {
 
     // Error! `rc_examples` already moved into `rc_a`
     // And when `rc_a` is dropped, `rc_examples` is dropped together
-    // println!("rc_examples: {}", rc_examples);
+    println!("rc_examples: {}", rc_examples);
     // TODO ^ Try uncommenting this line
 }
