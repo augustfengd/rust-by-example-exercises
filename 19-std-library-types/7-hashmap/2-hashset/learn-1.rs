@@ -9,7 +9,7 @@ fn main() {
 
     // `HashSet::insert()` returns false if
     // there was a value already present.
-    assert!(b.insert(4), "Value 4 is already in set B!");
+    // assert!(b.insert(4), "Value 4 is already in set B!");
 
     b.insert(5);
 
