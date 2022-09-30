@@ -1,5 +1,5 @@
 *
 !*.rs
-!*.lock
-!*.toml
+!Cargo.lock
+!Cargo.toml
 !/**/
